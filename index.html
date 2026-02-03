@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartify - Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" class="logo">Cartify</a></h1>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Categories</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="filterCategory('foods')">Foods</a>
+                    <a href="#" onclick="filterCategory('clothes')">Clothes</a>
+                    <a href="#" onclick="filterCategory('accessories')">Accessories</a>
+                </div>
+            </div>
+            <div class="search-container">
+                <input type="text" id="search-bar" placeholder="Search products..." />
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Price</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="filterPrice(20)">Under $20</a>
+                    <a href="#" onclick="filterPrice(50)">Under $50</a>
+                    <a href="#" onclick="filterPrice(100)">Under $100</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Sort</button>
+                <div class="dropdown-content">
+                    <a href="#" onclick="sortProducts('low')">Price: Low → High</a>
+                    <a href="#" onclick="sortProducts('high')">Price: High → Low</a>
+                </div>
+            </div>
+            <a href="cart.html" class="cart-link">
+                Cart <span id="nav-cart-count" class="cart-badge"></span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products"></section>
+        <p id="filter-label"></p>
+    </main>
+
+    <footer>
+        <p>© 2026 Cartify by Mamta Chand</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

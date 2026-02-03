@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartify - Cart</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html" class="logo">Cartify</a></h1>
+        <nav>
+            <a href="cart.html" class="cart-link">
+                Cart <span id="nav-cart-count" class="cart-badge"></span>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cart-details">
+            <h2>Your Cart</h2>
+            <ul id="cart-list" class="cart-items"></ul>
+
+            <div class="cart-summary">
+                <p><strong>Total:</strong> $<span id="cart-total">0</span></p>
+                <button id="checkout-btn">Checkout</button>
+                <a href="index.html" class="continue-btn">← Continue Shopping</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 Cartify by Mamta Chand</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
