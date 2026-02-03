@@ -1,19 +1,19 @@
 const products = [
-    { name: "Shoes", price: 50, img: "images/shoes.jpg", category: "clothes" },
-    { name: "Sport Shoes", price: 55, img: "images/sportshoes.jpg", category: "clothes" },
-    { name: "T-Shirt", price: 20, img: "images/tshirt.jpg", category: "clothes" },
-    { name: "Jeans", price: 40, img: "images/jeans.jpg", category: "clothes" },
-    { name: "Jacket", price: 65, img: "images/jacket.jpg", category: "clothes" },
-    { name: "Cap", price: 15, img: "images/cap.jpg", category: "accessories" },
-    { name: "Bag", price: 60, img: "images/bag.jpg", category: "accessories" },
-    { name: "Watch", price: 70, img: "images/watch.jpg", category: "accessories" },
-    { name: "Ring", price: 90, img: "images/ring.jpg", category: "accessories" },
-    { name: "Sunglasses", price: 35, img: "images/sunglasses.jpg", category: "accessories" },
-    { name: "Pizza", price: 12, img: "images/pizza.jpg", category: "foods" },
-    { name: "Burger", price: 10, img: "images/burger.jpg", category: "foods" },
-    { name: "Pasta", price: 18, img: "images/pasta.jpg", category: "foods" },
-    { name: "Ice Cream", price: 8, img: "images/icecream.jpg", category: "foods" },
-    { name: "Sandwich", price: 14, img: "images/sandwich.jpg", category: "foods" }
+    { name: "Shoes", price: 50, img: "shoes.jpg", category: "clothes" },
+    { name: "Sport Shoes", price: 55, img: "sportshoes.jpg", category: "clothes" },
+    { name: "T-Shirt", price: 20, img: "tshirt.jpg", category: "clothes" },
+    { name: "Jeans", price: 40, img: "jeans.jpg", category: "clothes" },
+    { name: "Jacket", price: 65, img: "jacket.jpg", category: "clothes" },
+    { name: "Cap", price: 15, img: "cap.jpg", category: "accessories" },
+    { name: "Bag", price: 60, img: "bag.jpg", category: "accessories" },
+    { name: "Watch", price: 70, img: "watch.jpg", category: "accessories" },
+    { name: "Ring", price: 90, img: "ring.jpg", category: "accessories" },
+    { name: "Sunglasses", price: 35, img: "sunglasses.jpg", category: "accessories" },
+    { name: "Pizza", price: 12, img: "pizza.jpg", category: "foods" },
+    { name: "Burger", price: 10, img: "burger.jpg", category: "foods" },
+    { name: "Pasta", price: 18, img: "pasta.jpg", category: "foods" },
+    { name: "Ice Cream", price: 8, img: "icecream.jpg", category: "foods" },
+    { name: "Sandwich", price: 14, img: "sandwich.jpg", category: "foods" }
 ];
 
 let cart = JSON.parse(localStorage.getItem("cart")) || [];
